@@ -472,6 +472,7 @@ public class FragmentActivity extends Activity implements SupportActivity {
             super.setTitle(title);
         } else {
             getSupportActionBar().setTitle(title);
+            super.setTitle(title);
         }
     }
 
@@ -481,6 +482,7 @@ public class FragmentActivity extends Activity implements SupportActivity {
             super.setTitle(titleId);
         } else {
             getSupportActionBar().setTitle(titleId);
+            super.setTitle(titleId);
         }
     }
 
